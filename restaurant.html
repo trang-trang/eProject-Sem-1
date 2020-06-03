@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+col-xl-4 col-lg-4
+<!DOCTYP col-sm-6E html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -41,6 +42,9 @@
                   <a class="nav-link" href="place.html">My places</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="cinema.html">Cinema</a>
                 </li>
                 <li class="nav-item">
@@ -65,49 +69,49 @@
       <div class="container">
         <h2><span>Restaurant </span></h2>
         <div class="row">
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="./images/restaurant/restaurant2.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant1.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant4.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class=" col-md-6 item">
+          <div class="col-xl-6 col-lg-6  col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant5.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant6.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/hotdogs.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant3.jpg" onclick="onClick(this)" alt="" />
             </div>
           </div>
 
-          <div class="col-md-6 item">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item">
             <div class="w3-container w3-third">
               <img src="/images/restaurant/restaurant.jpg" onclick="onClick(this)" alt="" />
             </div>
@@ -121,18 +125,12 @@
         </div>
       </div>
     </section>
-    <script>
-      function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-      }
-    </script>
     <footer class="footer">
       <div class="container-fluid">
         <div class="container">
           <div class="footer-item">
             <div class="row">
-              <div class="col-3 item-item">
+              <div class="col-4 item-item">
                 <h3>TICKETS & PASSES</h3>
                 <a href="">Season Passes</a>
                 <a href="">Tickets</a>
@@ -141,36 +139,23 @@
                 <a href="">Discounts</a>
               </div>
 
-              <div class="col-3 item-item ">
-                <h3>THINGS TO DO</h3>
-                <a href="">Attactions</a>
-                <a href="">Events</a>
-                <a href="">Birthday Parties</a>
-                <a href="">Kenny's Kabanas</a>
-                <a href="">Dining</a>
-                <a href="">Shopping</a>
-              </div>
-
-              <div class="col-3 item-item ">
+              <div class="col-4 item-item ">
                 <h3>PLAN A VISIT</h3>
-                <a href="">Calendar & Hours</a>
-                <a href="">Directions</a>
-                <a href="">Parking</a>
-                <a href="">Lockers & Rentals</a>
-                <a href="">Hotels & Packages</a>
-                <a href="">FAQs</a>
+                <a href="restaurant.html">Restaurant</a>
+                <a href="food.html">Food</a>
+                <a href="cinema.html">Cinema</a>
+                <a href="contact.html">Contact us</a>
+                <a href="place.html">My places</a>
+                <a href="gallery.html">Gallery</a>
               </div>
 
-              <div class="col-3 item-item ">
+              <div class="col-4 item-item ">
                 <h3>PARK INFO</h3>
                 <a href="">COVID-19 Update</a>
-                <a href="">About Kennywood</a>
-                <a href="">Park Map</a>
-                <a href="">Employment</a>
-                <a href="">Sponsors</a>
-                <a href="">Media Center</a>
-                <a href="">Kennywood Cares</a>
-                <a href="">Contact Us</a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i> LOGIN </a>
+                <a href="contact.html">Park Map</a>
+                <a href="mailto:Merciadopark@gmail.com"><i class="far fa-envelope"> Email</i></a>
+                <a href="tel:+84xxxxxxxxx"><i class="fas fa-phone-alt"></i> 0123456789</a>
               </div>
             </div>
           </div>
@@ -195,5 +180,11 @@
         </div>
       </div>
     </footer>
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+    </script>
   </body>
 </html>
