@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/index.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/about</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/place.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/cinema.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/restaurant.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/food.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/gallery.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/contact.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/ticket.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/login.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://musing-bhabha-d5d775.netlify.app/playground.html</loc>
+  <lastmod>2020-06-05T00:21:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
