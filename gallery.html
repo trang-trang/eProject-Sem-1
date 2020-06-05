@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style/all.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <!-- Import Boostrap css, js, font awesome here -->
     <link
       rel="stylesheet"
@@ -80,44 +81,100 @@
         </nav>
       </div>
     </header>
-    <section class="container">
+    <section class="container-fluid">
       <h2><span>Gallery</span></h2>
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/af.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/af.jpg" onclick="onClick(this)" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/fair.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/fair.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/Fast-and-Furious-6.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/Fast-and-Furious-6.jpg" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/im.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/im.jpg" onclick="onClick(this)" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/resss.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/resss.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/restaurant1.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/restaurant1.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/s1.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/s1.jpg" onclick="onClick(this)" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/s13.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/s13.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/s2.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/s2.jpg" onclick="onClick(this)" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/s5.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img src="./images/Gallery/s5.jpg" onclick="onClick(this)" alt="" />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/seafood1.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/seafood1.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 gallery-item">
-          <img src="./images/Gallery/img_.jpg" alt="" />
+          <div class="w3-container w3-third">
+            <img
+              src="./images/Gallery/img_.jpg"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright"
+          >&times;</span
+        >
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" />
         </div>
       </div>
     </section>
@@ -188,5 +245,11 @@
         </div>
       </div>
     </footer>
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+    </script>
   </body>
 </html>
